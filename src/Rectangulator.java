@@ -7,7 +7,7 @@ public class Rectangulator
 
 		Rectangle myRect = new Rectangle(length, width);
 
-		String output = String.format("Length :%d  Width:%d  Area:%d  ", myRect.length, myRect.width, myRect.GetArea());
+		String output = String.format("Length :%d  Width:%d  Area:%d  ", myRect.length, myRect.width, myRect.getArea());
 		System.out.println(output);
 	}
 }
